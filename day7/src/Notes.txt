@@ -1,0 +1,11 @@
+lifecycle methods in reacdt is a special method that get called at different stages of components
+ life in the react rendering process
+
+1.mounting- when a component is being created and inserted into the dom
+2.updating- when the component's state and props change causing a re-rendering
+3.unmounting- when the component is being removed from the dom 
+4.error handling - when aerror occur during the rendering in a lifecycle method.
+
+mountiung- render,componentdidmount
+uodating- shouldcomponentupdate,componentdidupdate
+unmounting-componentdidunmount

@@ -1,0 +1,107 @@
+•⁠⁠{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: url("https://images.pexels.com/photos/907485/pexels-photo-907485.jpeg?auto=compress&cs=tinysrgb&h=627&fit=crop&w=1200");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .weather-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: lightcyan;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+  }
+  
+  .heading {
+    color: rgb(0, 170, 255);
+    margin-top: 0px;
+  
+    width: 100%;
+    font-size: 36px;
+  }
+  
+  .weather-container h2 {
+    color: rgb(78, 169, 225);
+    background-color: transparent;
+  }
+  .weather-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  .weather-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #85dff1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .weather-container button:hover {
+    background-color: #5c97d7;
+  }
+  
+  .weather-container div {
+    margin-top: 20px;
+    text-align: center;
+    /* background-color: #85dff1; */
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/back_pic/00/05/33/86562656f65b38e.png");
+    border-radius: 10px;
+    padding: 5px;
+  }
+  /* .weather-container div:hover{
+    background-color: rgb(143, 179, 195);
+    border-color: #ccc;
+  } */
+  
+  .weather-container h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    background-color: #a8e4ee;
+  }
+  .weather-container h4:hover {
+    background-color: #6bc1d4;
+  }
+  
+  .weather-container p {
+    font-size: 18px;
+    margin: 5px 0;
+  }
+  .weather-container p:hover {
+    background-color: #78e7ef;
+  }
+  
+  @media (max-width: 480px) {
+    .weather-container {
+      padding: 15px;
+    }
+    .weather-container h3 {
+      font-size: 20px;
+    }
+  
+    .weather-container p {
+      font-size: 16px;
+    }
+  }

@@ -1,0 +1,26 @@
+.container{
+    border-radius: 5px;
+    border: 1px solid gray;
+    width: 280px;
+    height: 300px;
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+.heading{
+    font-size: 25px;
+    color: crimson;
+}
+.para{
+    font-size: 19px;
+    color: black;
+}
+.img{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    
+}

@@ -1,0 +1,1 @@
+https://api.openweathermap.org/data/2.5/weather?q=ooty%20&appid=a1120171cb3c5e49313b269f64c7b78f 
